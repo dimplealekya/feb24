@@ -1,0 +1,10 @@
+n=int(input())
+x=input()
+l=x.split()
+n=len(l)
+c=1
+for i in range(n):
+    j=i+1
+    if (n%j)==0:
+        c=c+1
+print(c)        
